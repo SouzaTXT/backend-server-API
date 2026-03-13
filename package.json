@@ -1,7 +1,7 @@
 {
-  "name": "backend-api-express",
+  "name": "backend-server-API",
   "version": "1.0.0",
-  "description": "Backend API com Express, Prisma ORM e Zod",
+  "description": "API Backend with Express, Prisma ORM and Zod.",
   "keywords": [
     "api",
     "express",
@@ -10,16 +10,16 @@
     "mvc",
     "middlewares"
   ],
-  "homepage": "https://github.com/renancavichi/backend-api-express-1sem2026#readme",
+  "homepage": "https://github.com/SouzaTXT/backend-server-API#readme",
   "bugs": {
-    "url": "https://github.com/renancavichi/backend-api-express-1sem2026/issues"
+    "url": "https://github.com/SouzaTXT/backend-server-API/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/renancavichi/backend-api-express-1sem2026.git"
+    "url": "git+https://github.com/SouzaTXT/backend-server-API.git"
   },
   "license": "ISC",
-  "author": "Renan Cavichi",
+  "author": "Mateus Fonseca",
   "type": "module",
   "main": "src/server.js",
   "scripts": {

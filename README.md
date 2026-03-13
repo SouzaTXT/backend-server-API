@@ -35,4 +35,3 @@ Gera o schema do prisma a partir do banco de dados
 
 Gerar as funções para interagir com os modelos mapeados no schema
 - npx prisma generate
-ma

@@ -3,7 +3,7 @@ import { createUser } from "../../models/userModel.js";
 export async function createUsersController(req, res){
 
     const user = {
-        avatar: "https://github.com/souzatxt.png",
+        avatar: "https://github.com/SouzaTXT.png",
         name: "Mateus Fonseca",
         email: "emaildomateus@gmail.com",
         pass: "12345678"
@@ -12,7 +12,7 @@ export async function createUsersController(req, res){
     const result = await createUser(user)
 
     res.json({
-        message: "Usuário criado com sucesso!",
+        message: `Usuário ${user.name} criado com sucesso!`,
         user: result
     })
 }

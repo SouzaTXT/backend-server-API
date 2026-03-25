@@ -6,6 +6,6 @@ export async function getPubliController(req, res){
 
     res.json({
         message: "publicações listados com sucesso",
-        users: result
+        publi: result
     });
 }

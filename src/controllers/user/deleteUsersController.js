@@ -1,3 +1,14 @@
-export function deleteUsersController(req, res){
-    res.send("Exemplo de DELETE na rota /user respondida pelo Controller");
+import { deleteUser } from "../../models/userModel.js";
+
+export async function deleteUsersController(req, res){
+    const id = req.params.id;
+
+    const result = await deleteUser(+id);
+
+    if(!result)
+        return res.status(404).json({message: `Erro ao deletar usuário id: $`});
+
+    return res.json({message: "Usuário deleteado com sucesso!",
+    user: result
+    });
 }

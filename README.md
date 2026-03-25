@@ -15,6 +15,8 @@
 - Qual a responsabilidade de cada Camada?
 - O que é um ORM?
 - Quais as vantagens de utilizar um ORM?
+- Como utilizar parâmetros da Url?
+- O que é Middleware? (Exemplo Logger)
 
 ### Comandos Prisma
 
